@@ -1,0 +1,90 @@
+
+.main-menu{
+    background-color: black;
+    text-align: left;
+    overflow: hidden;
+    position: sticky;
+   top: 0;
+    z-index: 100;
+
+}
+.main-menu ul{
+	display: inline-flex;
+	list-style: none;
+	color: white;
+}
+.main-menu ul li{
+	width: 90px;
+	margin: 15px;
+	padding: 15px;
+	font-size: 22px;
+	text-align: left;
+}
+.main-menu ul li a{
+	text-decoration: none;
+	color: white;
+}
+.first-section{
+	font-size: 35px;
+	padding-top: 50px;
+	background-size: cover;
+	background-image: url(images/guz.jpg.jpg);
+     height: 400px;
+     position:relative;
+	background-position: center;
+	color: white;
+}
+table{
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: collapse;
+	empty-cells: hide;
+	border-bottom: 1px solid black;
+}
+table, th{
+	font-size: 35px;
+
+}
+table, tr{
+	font-size: 18px;
+}
+footer{
+	position: sticky;
+	left: 0px;
+	bottom: 0px;
+	right: 10px;
+	width: 100%;
+	background-color: black;
+	text-align: center;
+	color: white;
+    height: 120px;
+	font-size: 20px;
+	z-index: 100;
+	overflow: hidden;
+
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+ }
+img{
+ 	width: 120px;
+ 	height: 120px;
+ 	border-radius: 50%;
+ 	vertical-align: middle;
+ 	margin-bottom: 5px;
+ 	margin-bottom: 5px; 	
+
+ }
+ 
